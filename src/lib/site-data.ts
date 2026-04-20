@@ -126,11 +126,11 @@ export const courseOffers: CourseOffer[] = [
     audience: "Eleve regulier",
     duration: "1 h",
     description:
-      "Un format suivi pour progresser techniquement, travailler la narration visuelle et developper un univers personnel.",
+      "Un accompagnement pour progresser en dessin, explorer la narration visuelle et developper sa creativite a son rythme.",
     benefits: [
-      "Suivi d'exercices",
-      "Corrections ciblees",
-      "Progression structuree",
+      "Exercices adaptes au niveau",
+      "Retours personnalises et bienveillants",
+      "Suivi pour evoluer en confiance",
     ],
   },
   {

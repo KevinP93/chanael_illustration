@@ -7,8 +7,8 @@ export default function WorkshopsPage() {
     <>
       <PageHero
         eyebrow="Ateliers"
-        title="Des ateliers en ligne presentes de facon simple, claire et professionnelle."
-        description="Le site distingue la decouverte de l&apos;univers artistique, l&apos;explication pedagogique et la reservation. Cette separation ameliore la comprehension et la conversion."
+        title="Des ateliers en ligne pour progresser en dessin et developper sa creativite."
+        description="Un accompagnement pour progresser en dessin, explorer la narration visuelle et developper sa creativite a son rythme."
       />
 
       <section className="section-shell pt-12 sm:pt-16">

@@ -20,11 +20,7 @@ export function HomeHero() {
               playsInline
               poster="/media/social/illustration-reseau.png"
             >
-              <source src="/media/video/bande-dessinee-hero.mp4" type="video/mp4" />
-              <source
-                src="/media/video/bande-dessinee-hero.mov"
-                type="video/quicktime"
-              />
+              <source src="/media/video/nouveau-plan.mp4" type="video/mp4" />
               Votre navigateur ne peut pas lire cette video.
             </video>
           </div>
@@ -34,7 +30,7 @@ export function HomeHero() {
       <div className="mt-6">
         <Reveal className="card-surface noise-overlay overflow-hidden px-5 py-8 sm:px-10 sm:py-14">
           <div className="relative z-10 max-w-2xl space-y-6">
-            <p className="eyebrow">Artiste peintre - Illustratrice - Ateliers en ligne</p>
+            <p className="eyebrow">Dessinatrice / illustratrice - Ateliers en ligne</p>
             <h1 className="font-display text-[clamp(2.9rem,12vw,5.7rem)] leading-[0.92] tracking-tight text-ink">
               {siteContent.heroTitle}
             </h1>

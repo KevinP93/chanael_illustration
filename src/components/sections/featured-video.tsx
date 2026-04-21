@@ -33,17 +33,13 @@ export function FeaturedVideo() {
               playsInline
               poster="/media/social/illustration-reseau.png"
             >
-              <source src="/media/video/bande-dessinee-hero.mp4" type="video/mp4" />
-              <source
-                src="/media/video/bande-dessinee-hero.mov"
-                type="video/quicktime"
-              />
+              <source src="/media/video/nouveau-plan.mp4" type="video/mp4" />
               Votre navigateur ne peut pas lire cette video.
             </video>
           </div>
           <p className="px-2 pt-4 text-sm leading-7 text-ink/65 sm:px-3">
-            La version `.mp4` est servie en priorite. Le `.mov` peut rester en
-            secours ou etre supprime plus tard si tu veux alleger le depot.
+            La nouvelle video `.mp4` est servie directement pour garder une
+            lecture fiable sur mobile comme sur desktop.
           </p>
         </Reveal>
       </div>

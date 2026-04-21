@@ -4,7 +4,7 @@ export const siteContent = {
   heroTitle:
     "Illustration sensible, ateliers en ligne et univers graphique singulier.",
   heroText:
-    "Chanael Illustration mele regard narratif, douceur graphique et exigence pedagogique pour accompagner les eleves dans une pratique creative structuree.",
+    "Chanael Illustration mele regard narratif, douceur graphique et accompagnement attentif pour guider les eleves dans leur pratique creative.",
   aboutText:
     "Le site presente a la fois une artiste et une professeure: une direction artistique editoriale, des oeuvres visibles librement et un parcours de reservation tres clair.",
   instagramUrl: "https://www.instagram.com/chanael_illustration",

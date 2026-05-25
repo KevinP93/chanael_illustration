@@ -4,14 +4,14 @@ import { dashboardBookings } from "@/lib/site-data";
 export default function UserDashboardPage() {
   return (
     <DashboardShell
-      title="Bonjour, parent / eleve"
-      description="Le dashboard utilisateur est structure pour afficher le profil, les reservations a venir et les liens utiles de replanification une fois la sync Calendly branchee."
+      title="Bonjour, parent / élève"
+      description="Retrouvez ici les prochaines réservations, les informations du profil et les liens utiles pour organiser vos ateliers."
     >
       <section className="grid gap-5 md:grid-cols-3">
         {[
-          ["Role", "Parent"],
-          ["Reservations a venir", "2"],
-          ["Derniere activite", "Aujourd'hui"],
+          ["Rôle", "Parent"],
+          ["Réservations à venir", "2"],
+          ["Dernière activité", "Aujourd'hui"],
         ].map(([label, value]) => (
           <article key={label} className="card-surface p-5">
             <p className="text-sm font-medium text-ink/55">{label}</p>
@@ -21,7 +21,7 @@ export default function UserDashboardPage() {
       </section>
 
       <section className="card-surface p-6">
-        <p className="eyebrow">Reservations</p>
+        <p className="eyebrow">Réservations</p>
         <div className="mt-5 space-y-4">
           {dashboardBookings.map((booking) => (
             <article

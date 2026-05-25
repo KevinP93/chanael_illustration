@@ -5,7 +5,7 @@ export default function AdminArtworksPage() {
   return (
     <AdminShell
       title="Gestion des œuvres"
-      description="Cette page est prête à devenir le CRUD principal des illustrations via Supabase."
+      description="Consultez les illustrations publiées et leurs informations principales."
     >
       <section className="card-surface p-6">
         <div className="space-y-4">
@@ -17,10 +17,10 @@ export default function AdminArtworksPage() {
               <div>
                 <h2 className="font-semibold text-ink">{artwork.title}</h2>
                 <p className="text-sm text-ink/62">
-                  {artwork.category} · {artwork.medium}
+                  {artwork.category} - {artwork.medium}
                 </p>
               </div>
-              <p className="text-sm text-ink/55">Slug: {artwork.slug}</p>
+              <p className="text-sm text-ink/55">Identifiant: {artwork.slug}</p>
             </article>
           ))}
         </div>

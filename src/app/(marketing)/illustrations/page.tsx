@@ -7,8 +7,8 @@ export default function IllustrationsPage() {
     <>
       <PageHero
         eyebrow="Galerie"
-        title="Une galerie elegante, responsive et pensee pour accueillir de nouveaux visuels."
-        description="Les oeuvres actuelles ont ete integrees directement dans le projet. La page est prete pour un futur branchement a Supabase Storage et un tri par categories depuis l&apos;admin."
+        title="Illustrations, portraits et fragments d'histoires."
+        description="Parcourez une sélection d'œuvres de Chanael, entre douceur du trait, narration visuelle et compositions sensibles."
       />
 
       <section className="section-shell pt-12 sm:pt-16">

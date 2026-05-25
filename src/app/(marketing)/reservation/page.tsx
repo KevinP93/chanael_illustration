@@ -6,9 +6,9 @@ export default function ReservationPage() {
   return (
     <>
       <PageHero
-        eyebrow="Reservation"
-        title="Une page dediee au booking, claire pour l&apos;utilisateur et simple a administrer."
-        description="Cette page est prete pour accueillir le widget Calendly inline. Les offres restent editables cote application, tandis que les disponibilites sont gerees dans Calendly."
+        eyebrow="Réservation"
+        title="Réserver un atelier en ligne avec Chanael."
+        description="Choisissez le format qui correspond à votre besoin, puis sélectionnez un créneau disponible pour organiser la prochaine séance."
       />
 
       <section className="section-shell pt-12 sm:pt-16">
@@ -24,7 +24,7 @@ export default function ReservationPage() {
             ))}
           </div>
 
-          <CalendlyPanel title="Reserver un creneau d'atelier" />
+          <CalendlyPanel title="Réserver un créneau d'atelier" />
         </div>
       </section>
     </>

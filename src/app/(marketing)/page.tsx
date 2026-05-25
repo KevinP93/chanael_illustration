@@ -29,8 +29,8 @@ export default function HomePage() {
           <Reveal className="space-y-5">
             <p className="eyebrow">Une double promesse</p>
             <h2 className="section-title">
-              Montrer un univers d&apos;artiste sans perdre la clarte attendue
-              pour les ateliers.
+              Un univers d&apos;artiste à découvrir, avec des ateliers faciles à
+              comprendre.
             </h2>
             <p className="section-copy">{siteContent.aboutText}</p>
           </Reveal>
@@ -40,17 +40,17 @@ export default function HomePage() {
               {
                 icon: BrushCleaning,
                 title: "Galerie publique",
-                text: "Les oeuvres restent visibles librement, sans friction ni creation de compte.",
+                text: "Les œuvres restent visibles librement, sans friction ni création de compte.",
               },
               {
                 icon: GraduationCap,
-                title: "Pedagogie lisible",
-                text: "Les ateliers sont expliques clairement pour rassurer parents et eleves.",
+                title: "Pédagogie lisible",
+                text: "Les ateliers sont expliqués clairement pour rassurer parents et élèves.",
               },
               {
                 icon: CalendarClock,
-                title: "Reservation fluide",
-                text: "La disponibilite reelle de Chantal reste pilotee via Calendly et Google Calendar.",
+                title: "Réservation fluide",
+                text: "Les créneaux disponibles permettent de choisir simplement le bon moment pour un atelier.",
               },
             ].map((item, index) => (
               <Reveal
@@ -70,14 +70,14 @@ export default function HomePage() {
       <section className="section-shell pt-16 sm:pt-20">
         <div className="mb-8 flex flex-col gap-5 sm:mb-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="space-y-4">
-            <p className="eyebrow">Selection d&apos;oeuvres</p>
+            <p className="eyebrow">Sélection d&apos;œuvres</p>
             <h2 className="section-title">
-              Une galerie editoriale, consultable sans inscription.
+              Une galerie éditoriale, consultable sans inscription.
             </h2>
             <p className="section-copy">
-              Les premiers visuels existants sont deja branches au projet. La
-              structure est prete pour un futur import Supabase Storage et une
-              edition depuis l&apos;admin.
+              Une sélection d&apos;illustrations pour entrer dans l&apos;univers de
+              Chanael, entre personnages, ambiances sensibles et détails
+              narratifs.
             </p>
           </div>
           <Link href="/illustrations" className="pill-link w-full sm:w-auto">

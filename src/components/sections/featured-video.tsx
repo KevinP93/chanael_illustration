@@ -8,14 +8,13 @@ export function FeaturedVideo() {
     <section className="section-shell pt-16 sm:pt-20">
       <div className="grid gap-6 sm:gap-8 lg:grid-cols-[0.8fr_1.2fr]">
         <Reveal className="space-y-5">
-          <p className="eyebrow">Sequence immersive</p>
+          <p className="eyebrow">Séquence immersive</p>
           <h2 className="section-title">
-            La video bande dessinee trouve naturellement sa place dans l&apos;accueil.
+            Une vidéo dessinée pour entrer dans l&apos;univers de Chanael.
           </h2>
           <p className="section-copy">
-            Le projet est pret a mettre en avant la video de la cliente dans une
-            section forte. La version `.mp4` web est maintenant integree au site
-            pour une lecture plus fiable sur desktop et mobile.
+            Un format vivant pour montrer le mouvement du trait, l&apos;ambiance
+            graphique et la narration qui accompagne les illustrations.
           </p>
           <Link
             href={`mailto:${siteContent.contactEmail}`}
@@ -34,12 +33,12 @@ export function FeaturedVideo() {
               poster="/media/social/illustration-reseau.png"
             >
               <source src="/media/video/nouveau-plan.mp4" type="video/mp4" />
-              Votre navigateur ne peut pas lire cette video.
+              Votre navigateur ne peut pas lire cette vidéo.
             </video>
           </div>
           <p className="px-2 pt-4 text-sm leading-7 text-ink/65 sm:px-3">
-            La nouvelle video `.mp4` est servie directement pour garder une
-            lecture fiable sur mobile comme sur desktop.
+            Une lecture simple pour découvrir la séquence sur mobile comme sur
+            desktop.
           </p>
         </Reveal>
       </div>

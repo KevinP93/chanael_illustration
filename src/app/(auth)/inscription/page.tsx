@@ -6,11 +6,11 @@ export default function RegisterPage() {
       <section className="card-surface p-6 sm:p-8">
         <p className="eyebrow">Inscription</p>
         <h1 className="mt-4 font-display text-4xl text-ink">
-          Creer un compte eleve ou parent
+          Créer un compte élève ou parent
         </h1>
         <p className="mt-4 text-sm leading-8 text-ink/68">
-          Le formulaire prepare l&apos;espace utilisateur. Les roles `parent` et
-          `student` seront geres au niveau du profil Supabase.
+          Créez un espace pour suivre les ateliers, retrouver les réservations
+          et faciliter les échanges autour des séances.
         </p>
       </section>
 
@@ -26,18 +26,18 @@ export default function RegisterPage() {
           />
           <input
             className="rounded-2xl border border-ink/10 bg-white/70 px-4 py-3"
-            placeholder="Telephone"
+            placeholder="Téléphone"
           />
           <input
             className="rounded-2xl border border-ink/10 bg-white/70 px-4 py-3 sm:col-span-2"
             placeholder="Nom de l&apos;enfant si compte parent"
           />
           <button type="button" className="primary-link w-full sm:col-span-2 sm:w-auto">
-            Inscription a brancher
+            Créer mon espace
           </button>
         </form>
         <p className="mt-5 text-sm text-ink/62">
-          Deja inscrit ?{" "}
+          Déjà inscrit ?{" "}
           <Link href="/connexion" className="font-semibold text-ink">
             Se connecter
           </Link>

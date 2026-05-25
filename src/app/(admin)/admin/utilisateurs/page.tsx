@@ -4,7 +4,7 @@ export default function AdminUsersPage() {
   return (
     <AdminShell
       title="Utilisateurs"
-      description="Vue prête pour distinguer les comptes parent, élève et administrateur."
+      description="Suivez les comptes parents, élèves et administrateurs."
     >
       <section className="card-surface p-6">
         <div className="grid gap-4 sm:grid-cols-3">
@@ -15,7 +15,7 @@ export default function AdminUsersPage() {
             >
               <p className="eyebrow">{role}</p>
               <p className="mt-3 text-sm leading-7 text-ink/62">
-                Le filtrage et la gestion fine seront branchés après intégration Supabase.
+                Les comptes associés à ce rôle apparaîtront ici.
               </p>
             </article>
           ))}

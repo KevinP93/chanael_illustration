@@ -4,8 +4,8 @@ import { dashboardBookings } from "@/lib/site-data";
 export default function AdminReservationsPage() {
   return (
     <AdminShell
-      title="Reservations"
-      description="Le tableau est pret pour refleter les bookings synchronises depuis Calendly, sans faire du site la source de verite du planning."
+      title="Réservations"
+      description="Suivez les créneaux réservés, les élèves concernés et les ateliers associés."
     >
       <section className="card-surface p-6">
         <div className="space-y-4">

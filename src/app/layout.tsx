@@ -4,7 +4,7 @@ import { siteEnv } from "@/lib/env";
 
 const siteTitle = "Chanael Illustration";
 const siteDescription =
-  "Portfolio d'illustration et ateliers en ligne portes par l'univers artistique de Chantal.";
+  "Portfolio d'illustration et ateliers en ligne portés par l'univers artistique de Chantal.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteEnv.siteUrl),

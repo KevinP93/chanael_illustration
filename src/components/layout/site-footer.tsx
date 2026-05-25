@@ -9,11 +9,11 @@ export function SiteFooter() {
         <div className="mx-auto max-w-3xl space-y-4">
           <p className="eyebrow">Chanael Illustration</p>
           <h2 className="font-display text-2xl leading-tight text-ink sm:text-3xl">
-            Un site vitrine pense pour montrer les oeuvres, accueillir les eleves
-            et simplifier la reservation.
+            Un site vitrine pensé pour montrer les œuvres, accueillir les élèves
+            et simplifier la réservation.
           </h2>
           <p className="mx-auto max-w-2xl text-sm leading-7 text-ink/65">
-            Portfolio public, page de reservation dediee et point de contact
+            Portfolio public, page de réservation dédiée et point de contact
             simple pour guider les futures demandes d&apos;atelier.
           </p>
         </div>
@@ -28,7 +28,7 @@ export function SiteFooter() {
               Ateliers
             </Link>
             <Link href="/reservation" className="block hover:text-ink">
-              Reservation
+              Réservation
             </Link>
           </div>
 

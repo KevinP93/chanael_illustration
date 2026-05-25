@@ -32,5 +32,5 @@ export type DashboardBooking = {
   student: string;
   course: string;
   dateLabel: string;
-  status: "confirme" | "a confirmer" | "replanifie";
+  status: "confirmé" | "à confirmer" | "replanifié";
 };

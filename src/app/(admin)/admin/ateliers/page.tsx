@@ -5,7 +5,7 @@ export default function AdminWorkshopsPage() {
   return (
     <AdminShell
       title="Gestion des ateliers"
-      description="Les offres visibles cote public peuvent etre pilotees ici, independamment des reglages Calendly."
+      description="Consultez les offres d'ateliers présentées aux visiteurs."
     >
       <section className="grid gap-5 lg:grid-cols-3">
         {courseOffers.map((course) => (

@@ -4,8 +4,8 @@ import { dashboardBookings } from "@/lib/site-data";
 export default function UserReservationsPage() {
   return (
     <DashboardShell
-      title="Mes reservations"
-      description="La liste est prete pour accueillir les reservations synchronisees depuis Calendly Standard via webhook."
+      title="Mes réservations"
+      description="Consultez les ateliers prévus, leur horaire et leur statut en un coup d'œil."
     >
       <section className="card-surface p-6">
         <div className="space-y-4">

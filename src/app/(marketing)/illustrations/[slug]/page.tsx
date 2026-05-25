@@ -60,10 +60,10 @@ export default async function ArtworkDetailPage({
             />
           </div>
           <article className="card-surface p-6 sm:p-8">
-            <p className="eyebrow">Detail d&apos;oeuvre</p>
+            <p className="eyebrow">Détail d&apos;œuvre</p>
             <div className="mt-5 space-y-5 text-sm leading-8 text-ink/68">
               <p>
-                <span className="font-semibold text-ink">Annee:</span> {artwork.year}
+                <span className="font-semibold text-ink">Année:</span> {artwork.year}
               </p>
               <p>
                 <span className="font-semibold text-ink">Technique:</span>{" "}
@@ -72,11 +72,6 @@ export default async function ArtworkDetailPage({
               <p>
                 <span className="font-semibold text-ink">Description:</span>{" "}
                 {artwork.description}
-              </p>
-              <p>
-                Cette page est prete pour accueillir plus tard une fiche riche:
-                tags, dimensions, statut de publication et ordre d&apos;affichage
-                pilotes depuis l&apos;administration.
               </p>
             </div>
           </article>

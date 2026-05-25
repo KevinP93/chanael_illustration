@@ -4,14 +4,14 @@ import { dashboardBookings } from "@/lib/site-data";
 export default function AdminDashboardPage() {
   return (
     <AdminShell
-      title="Dashboard admin"
-      description="Le back-office est pret pour piloter les oeuvres, les ateliers, les messages et le miroir des reservations."
+      title="Tableau de bord"
+      description="Vue d'ensemble des contenus, ateliers, réservations et messages du site."
     >
       <section className="grid gap-5 md:grid-cols-4">
         {[
-          ["Oeuvres importees", "8"],
+          ["Œuvres publiées", "8"],
           ["Offres d'ateliers", "3"],
-          ["Reservations visibles", `${dashboardBookings.length}`],
+          ["Réservations visibles", `${dashboardBookings.length}`],
           ["Messages", "0"],
         ].map(([label, value]) => (
           <article key={label} className="card-surface p-5">

@@ -7,8 +7,8 @@ export default function WorkshopsPage() {
     <>
       <PageHero
         eyebrow="Ateliers"
-        title="Des ateliers en ligne pour progresser en dessin et developper sa creativite."
-        description="Un accompagnement pour progresser en dessin, explorer la narration visuelle et developper sa creativite a son rythme."
+        title="Des ateliers en ligne pour progresser en dessin et développer sa créativité."
+        description="Un accompagnement pour progresser en dessin, explorer la narration visuelle et développer sa créativité à son rythme."
       />
 
       <section className="section-shell pt-12 sm:pt-16">
@@ -31,16 +31,14 @@ export default function WorkshopsPage() {
         <div className="mt-8 rounded-[1.6rem] border border-ink/10 bg-paper/90 p-5 sm:rounded-[2rem] sm:p-8">
           <p className="eyebrow">Organisation</p>
           <h3 className="mt-3 font-display text-3xl text-ink">
-            Calendly gere les creneaux, le site reste concentre sur l&apos;experience.
+            Des créneaux simples à choisir, pour avancer sans contrainte.
           </h3>
           <p className="mt-4 max-w-3xl text-sm leading-8 text-ink/68">
-            Les disponibilites doivent rester synchronisees au calendrier de
-            Chantal. La page de reservation dediee permet de garder une UX claire
-            tout en evitant de reconstruire un moteur de planning complet cote
-            site.
+            La réservation permet de sélectionner un horaire disponible et de
+            préparer sereinement la prochaine séance avec Chanael.
           </p>
           <Link href="/reservation" className="primary-link mt-6 w-full sm:w-auto">
-            Acceder a la reservation
+            Accéder à la réservation
           </Link>
         </div>
       </section>

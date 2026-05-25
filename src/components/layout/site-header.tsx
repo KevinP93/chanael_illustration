@@ -59,7 +59,7 @@ export function SiteHeader() {
             </Link>
             <div className="hidden lg:flex">
               <Link href="/reservation" className="primary-link whitespace-nowrap">
-                Reserver un atelier
+                Réserver un atelier
               </Link>
             </div>
             <button
@@ -108,7 +108,7 @@ export function SiteHeader() {
                 onClick={closeMenu}
                 className="primary-link flex w-full"
               >
-                Reserver un atelier
+                Réserver un atelier
               </Link>
               <Link
                 href="https://www.instagram.com/chanael_illustration"

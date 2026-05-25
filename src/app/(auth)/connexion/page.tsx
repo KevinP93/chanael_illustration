@@ -6,11 +6,11 @@ export default function LoginPage() {
       <section className="card-surface p-6 sm:p-8">
         <p className="eyebrow">Connexion</p>
         <h1 className="mt-4 font-display text-4xl text-ink">
-          Espace eleve / parent
+          Espace élève / parent
         </h1>
         <p className="mt-4 text-sm leading-8 text-ink/68">
-          Le shell de connexion est en place. Il sera relie a Supabase Auth des
-          que les variables d&apos;environnement du projet seront renseignees.
+          Retrouvez vos réservations, vos informations de contact et les liens
+          utiles pour suivre vos ateliers.
         </p>
       </section>
 
@@ -26,13 +26,13 @@ export default function LoginPage() {
             type="password"
           />
           <button type="button" className="primary-link w-full sm:w-auto">
-            Connexion a brancher
+            Se connecter
           </button>
         </form>
         <p className="mt-5 text-sm text-ink/62">
           Pas encore de compte ?{" "}
           <Link href="/inscription" className="font-semibold text-ink">
-            Creer un espace
+            Créer un espace
           </Link>
         </p>
       </section>

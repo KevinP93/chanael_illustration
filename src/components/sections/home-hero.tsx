@@ -21,7 +21,7 @@ export function HomeHero() {
               poster="/media/social/illustration-reseau.png"
             >
               <source src="/media/video/nouveau-plan.mp4" type="video/mp4" />
-              Votre navigateur ne peut pas lire cette video.
+              Votre navigateur ne peut pas lire cette vidéo.
             </video>
           </div>
         </div>
@@ -39,10 +39,10 @@ export function HomeHero() {
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <Link href="/illustrations" className="primary-link w-full sm:w-auto">
-                Voir les oeuvres
+                Voir les œuvres
               </Link>
               <Link href="/reservation" className="pill-link w-full sm:w-auto">
-                Reserver un atelier <ArrowRight className="ml-2" size={16} />
+                Réserver un atelier <ArrowRight className="ml-2" size={16} />
               </Link>
             </div>
           </div>
